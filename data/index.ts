@@ -46,7 +46,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
     title: "Currently building a JS Animation library",
@@ -107,33 +106,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Aryankit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aryankit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Aryankit is the ideal partner.",
+    name: "Sarah Chen",
+    title: "CEO of TechCraft Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Aryankit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aryankit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Aryankit is the ideal partner.",
+    name: "Michael Rodriguez",
+    title: "Founder of Digital Dynamics",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Aryankit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aryankit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Aryankit is the ideal partner.",
+    name: "Emily Thompson",
+    title: "Marketing Director at InnovateTech",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Aryankit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aryankit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Aryankit is the ideal partner.",
+    name: "David Kim",
+    title: "Product Manager at WebSphere",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Aryankit was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aryankit's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Aryankit is the ideal partner.",
+    name: "Jessica Martinez",
+    title: "UX Designer at CreativeLabs",
   },
 ];
 
@@ -205,13 +204,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/aryankit-Block"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/Aryankit_9CR"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/aryankit"
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
+    link: "https://instagram.com/Aryankit.block"
   },
 ];
