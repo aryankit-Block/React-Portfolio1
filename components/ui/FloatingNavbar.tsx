@@ -47,7 +47,7 @@ export const FloatingNav = ({
     <AnimatePresence mode="wait">
       <motion.div
         initial={{
-          opacity: 1,
+          opacity: 0,
           y: -100,
         }}
         animate={{
@@ -55,7 +55,9 @@ export const FloatingNav = ({
           opacity: visible ? 1 : 0,
         }}
         transition={{
-          duration: 0.2,
+          duration: 0.3,
+          delay: 0.2,
+          ease: "easeOut"
         }}
         className={cn(
           // change rounded-full to rounded-lg
@@ -75,8 +77,10 @@ export const FloatingNav = ({
           <Link
             key={`link=${idx}`}
             href={navItem.link}
+            target={navItem.link.startsWith('http') ? '_blank' : '_self'}
+            rel={navItem.link.startsWith('http') ? 'noopener noreferrer' : ''}
             className={cn(
-              "relative dark:text-neutral-50 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500 transition-colors duration-200"
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>

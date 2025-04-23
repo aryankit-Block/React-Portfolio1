@@ -1,8 +1,8 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
+  { name: "Projects", link: "https://github.com/aryankit-Block" },
   { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Contact", link: "mailto:aryankitb@gmail.com?subject=Portfolio%20Contact" },
 ];
 
 export const gridItems = [
