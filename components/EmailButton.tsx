@@ -6,7 +6,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 const EmailButton = () => {
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    window.location.href = "mailto:ankitpandey.dev@gmail.com?subject=Let's%20Collaborate!";
+    window.location.href = "mailto:aryankitb@gmail.com?subject=Let's%20Collaborate!";
   };
 
   return (
