@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+
+  /* Favicon styles */
+  link[rel*="icon"] {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -88,4 +96,11 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+}
+
+/* For apple touch icon */
+link[rel="apple-touch-icon"] {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
